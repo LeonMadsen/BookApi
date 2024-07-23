@@ -1,0 +1,27 @@
+{
+  "name": "bookshop",
+  "version": "1.0.0",
+  "description": "bookshop api",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "build:watch": "webpack --watch"
+  },
+  "author": "LeonMadsen",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.0",
+    "sass": "^1.77.8",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.6.0"
+  }
+}

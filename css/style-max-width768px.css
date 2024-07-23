@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    .header {
+        padding: 10px;
+    }
+
+    .logo {
+        margin: 10px 0;
+    }
+
+    .header-list {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .header-link {
+        font-size: 8px;
+    }
+    .books {
+        grid-template-columns: 1fr; 
+        margin-left: 0; 
+        width: 100%; 
+        padding: 0 20px; 
+    }
+    .sidebar {
+        top: 0; 
+        left: 0;
+        width: 29%;
+        height: 710px;
+        background-color: #EFEEF6;
+        display: flex;
+        align-items: left;
+        }
+    .position {
+            left: 50%;
+       }
+ }

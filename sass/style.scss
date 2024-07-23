@@ -1,0 +1,332 @@
+$btn-color: pink;
+
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0; 
+}
+body {
+    max-width: 1280px;
+    height: auto;
+}
+.header {
+    max-width: 1280px;
+    height: 116px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: 1000;
+}
+
+.logo {
+    margin-left: 166px;
+    margin-top: 49px; 
+    margin-bottom: 38px;
+    }
+.header-list {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 40px;
+    flex-grow: 1;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    margin-top: 58px; 
+    margin-bottom: 46px;
+}
+
+.header-link {
+    font-size: 10px;
+    color: grey;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+
+.header-list li:first-child a {
+    color:  black;
+   }
+
+.header-icons {
+    display: flex;
+    flex-direction: row;
+    height: 17px;
+    width: 121px;
+    justify-content: space-between;
+    margin-top: 55px; 
+    margin-bottom: 44px;
+    margin-right: 161px;
+    cursor: pointer;
+}
+
+
+
+
+.basket-container {
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.basket-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none; 
+}
+.badge {
+border-radius: 50%; 
+    box-sizing: border-box; 
+    text-align: center;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 10px;
+    position: absolute; 
+    bottom: 0; 
+    right: 0; 
+    transform: translate(50%, 50%);
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 1280px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    display: flex;
+    margin-top: 116px;
+    width: 74%;
+    overflow: hidden;
+    height: auto;
+     }
+.slider-line {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 702px;
+        width: 74%;
+       }
+.slider-image {
+    width: 100%;
+    height: 100%;
+    }
+
+   .bottom {
+       display: flex;
+       align-items: center;
+       justify-content: flex-start;
+       column-gap: 10px;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 17px;
+   }
+   .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #EFEEF6;
+  }
+
+  .active {
+    background-color: #9E98DC;
+}
+
+  .change-old {
+      background-color: #9E98DC;
+      width: 149px;
+      height: 204px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 5px 10px rgb(53, 49, 84, 0.28);
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-top: 195px;
+      margin-right: 74px;
+      text-decoration: none;
+}
+.top-book {
+    background-color: #FF8FE6;
+    width: 158px;
+    height: 273px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 10px rgb(53, 49, 84, 0.28);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 87px;
+    text-decoration: none;
+}
+
+.change-old-text {
+    font-size: 18px;
+    color: #1C2A39;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    margin: 102px 20px 4px 20px;
+}
+.top-book-text {
+    font-size: 18px;
+    color: #1C2A39;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    margin: 147px 40px 4px 28px;
+}
+
+.arrow {
+    width: 55px;
+    margin: 0px 74px 20px 20px;
+}
+
+
+
+
+.main2 {
+    display: flex;
+    position: relative;
+    max-width: 1280px;
+    margin-top: 100px;
+}
+.sidebar {
+    top: 0; 
+    left: 0;
+    width: 29%;
+    height: 710px;
+    background-color: #EFEEF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .category {
+        font-size: 12px;
+        color: #5C6A79;
+        text-decoration: none;
+        font-family: Montserrat, sans-serif;
+        font-weight: medium;
+        list-style: none;
+        padding-top: 23px;
+        cursor: pointer;  
+    }
+.sidebar-txt {
+    font-size: 12px;
+    color: #5C6A79;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: medium;
+    list-style: none;
+    padding-top: 23px;
+    cursor: pointer;
+}
+.sidebar-active {
+    font-size: 16px;
+    color: #5C6A79;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    list-style: none;
+    padding-top: 23px;
+    cursor: pointer;
+   }
+
+
+
+    .books {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px; 
+        position: absolute;
+        justify-content: center; 
+        align-items: center; 
+        margin-left: 25%;
+    }
+
+
+   .book {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 424px;
+    height: 300px;
+    padding-top: 46px;
+    padding-bottom: 96px;
+    margin: 0 auto;
+   }
+
+
+   .book-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+   .authors {
+    font-family: "Open Sans";
+    font-size: 10px;
+    color:  rgba(92, 106, 121, 1);
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.book-title {
+    font-family: Montserrat;
+    font-size: 16px;
+    color:  rgba(28, 42, 57, 1);
+}
+.price {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: bold;
+    color:  rgba(28, 42, 57, 1);
+}
+   .button {
+       width: 176px;
+       height: 45px;
+       border-color: rgba(76, 61, 178, 1);
+       background-color: white;
+       font-family: Montserrat, sans-serif;
+       font-size: 8px;
+       color:  rgba(76, 61, 178, 1);
+       cursor: pointer;
+   }
+   button:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+
+   .container {
+    position: relative; 
+    margin-top: 350px;
+    max-width: 1440px;
+   }
+
+
+   .position {
+    bottom: 10px; 
+    left: 50%;
+    position: absolute;
+   }
+
+.pushed-btn {
+    @extend .button;
+    background-color: $btn-color;
+}
